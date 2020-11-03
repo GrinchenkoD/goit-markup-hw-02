@@ -1,8 +1,121 @@
-        /* основные цвета */
+ /* основные цвета */
 /* основной цвет текста #212121; */
 /* вторичный цвет текста #757575; */
 /* акцент цвет  #2196f3; */
 /* белый #ffffff */
 
+/* цвет фона  #E5E5E5; */
+/* цвет фона хедера #FFFFFF; */
+/* цвет фона футера #2F303A; */
+
         /*цвет почта и телефон в футере  */
 /* rgba(255, 255, 255, 0.6); */
+
+:root{
+        --primary-text-color:#757575;
+        --title-text-color:#212121;
+        --accent-color:#2196f3;
+        --accent-white-color: #ffffff;
+}
+
+
+body {
+        background-color: #E5E5E5; 
+        color: #757575;
+  }
+
+.list{
+        list-style: none;
+}
+    
+/* навигация сайта  */
+.logo{
+        color: var(--title-text-color);  
+        text-decoration: none;    
+}
+
+.logo .accent{
+        color: var(--accent-color);
+}
+
+.site-nav .link {
+        color: var(--title-text-color);
+}
+
+.contacts .link{
+        color: var(--primary-text-color);
+}
+
+
+.link:hover,
+.link:focus {
+        color: var(--accent-color);
+}
+
+.link {
+        text-decoration: none;
+}
+.hero-title {
+        color: var(--title-text-color);
+}
+/* секции */
+.features,
+.activities,
+.employees{
+        list-style: none;
+}
+
+.section-title{
+        color: var(--title-text-color);
+}
+
+/* Преимущества */
+.features .title{
+        color: var(--title-text-color);
+}
+/* Команда */
+.team {
+background-color: #F5F4FA;
+}
+.employees .title{
+        color: var(--title-text-color);
+}
+
+/* футер */
+.footer{
+        background-color: #2F303A;
+}
+
+.footer-logo {
+        color: var(--accent-white-color);
+        text-decoration: none;
+}
+.footer-logo .accent {
+        color: var(--accent-color)
+}
+.address-list {
+        color: var(--accent-white-color);
+        list-style: none;
+}
+.address .link {
+color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
+}
+
+/* Портфолио */
+.projects .title {
+        color: var(--title-text-color);
+}
+.filter-list,
+.projects-list {
+        list-style: none;
+}
+.filter-list {
+        color: var(--title-text-color);
+}
+.projects .project-link {
+        text-decoration: none;
+}
+.project-link {
+        color: var(--primary-text-color);
+}
